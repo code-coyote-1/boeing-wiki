@@ -1,208 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boeing Employee Wellness Programs</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>HR - My Static Website</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            line-height: 1.6;
         }
-
         header {
-            background-color: #004080;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            color: #004080;
-            margin-top: 30px;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px 0;
             background-color: #333;
             color: #fff;
+            padding: 10px 0;
+            text-align: center;
         }
-
-        a {
-            color: #004080;
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
             text-decoration: none;
         }
-
-        a:hover {
-            text-decoration: underline;
+        main {
+            padding: 20px;
+            text-align: center;
         }
-
-        .programs-table {
+        ul.links {
+            list-style: none;
+            padding: 0;
+        }
+        ul.links li {
+            margin: 10px 0;
+        }
+        ul.links li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            border: 1px solid #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        ul.links li a:hover {
+            background-color: #f0f0f0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        .programs-table th,
-        .programs-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        .programs-table th {
-            background-color: #004080;
-            color: white;
-        }
-
-        .programs-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        .programs-table tr:hover {
-            background-color: #f1f1f1;
         }
     </style>
 </head>
-
 <body>
-
     <header>
-        <h1>Boeing Employee Wellness Programs</h1>
-        <p>Promoting health and well-being for a better work-life balance</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../hr/index.html">HR</a></li>
+                <li><a href="../onboarding/index.html">Onboarding</a></li>
+                <li><a href="../training/index.html">Training</a></li>
+                <li><a href="../benefits/index.html">Benefits</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="container">
-        <h1>Employee Wellness Programs</h1>
-
-        <p>At Boeing, we believe that the well-being of our employees is essential for a productive and fulfilling work environment. Our wellness programs are designed to support physical, mental, and emotional health, and encourage a healthy work-life balance.</p>
-
-        <div class="section">
-            <h2>1. Fitness Programs</h2>
-            <p>Our fitness programs are designed to keep employees active and healthy:</p>
-            <ul>
-                <li><strong>Onsite Gym:</strong> Access to state-of-the-art gym facilities.</li>
-                <li><strong>Fitness Classes:</strong> Yoga, Pilates, Zumba, and more.</li>
-                <li><strong>Virtual Workouts:</strong> Online classes for remote employees.</li>
-                <li><strong>Reimbursement:</strong> Subsidies for gym memberships outside the office.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>2. Mental Health Support</h2>
-            <p>We prioritize mental health with comprehensive support services:</p>
-            <ul>
-                <li><strong>Employee Assistance Program (EAP):</strong> Confidential counseling and support.</li>
-                <li><strong>Workshops:</strong> Stress management and mindfulness sessions.</li>
-                <li><strong>Online Resources:</strong> Access to mental health apps and tools.</li>
-                <li><strong>Hotline:</strong> 24/7 support for mental health crises.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>3. Nutrition and Healthy Eating</h2>
-            <p>We promote healthy eating habits through various programs:</p>
-            <ul>
-                <li><strong>Nutritional Counseling:</strong> Access to dietitians and nutritionists.</li>
-                <li><strong>Healthy Cafeteria Options:</strong> Balanced meals and snacks.</li>
-                <li><strong>Workshops:</strong> Nutrition education sessions.</li>
-                <li><strong>Cooking Classes:</strong> Learn to prepare healthy meals at home.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>4. Financial Wellness</h2>
-            <p>We support financial health through educational resources:</p>
-            <ul>
-                <li><strong>Financial Planning:</strong> Workshops and one-on-one sessions with financial advisors.</li>
-                <li><strong>Retirement Planning:</strong> Information sessions about retirement savings.</li>
-                <li><strong>Debt Management:</strong> Resources to help manage and reduce debt.</li>
-                <li><strong>Investing Basics:</strong> Learn about investing and wealth management.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>5. Additional Resources</h2>
-            <p>Explore our resources to support your wellness journey:</p>
-            <table class="programs-table">
-                <thead>
-                    <tr>
-                        <th>Resource</th>
-                        <th>Description</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Wellness Portal</td>
-                        <td>Access to wellness resources, tips, and tools.</td>
-                        <td><a href="#">Visit Portal</a></td>
-                    </tr>
-                    <tr>
-                        <td>EAP Services</td>
-                        <td>Confidential support for personal and work-related issues.</td>
-                        <td><a href="#">Learn More</a></td>
-                    </tr>
-                    <tr>
-                        <td>Nutrition Guides</td>
-                        <td>Healthy eating guides and meal planning resources.</td>
-                        <td><a href="#">View Guides</a></td>
-                    </tr>
-                    <tr>
-                        <td>Financial Wellness</td>
-                        <td>Financial education resources and planning tools.</td>
-                        <td><a href="#">Explore Options</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <p>For more information or to join a program, please contact the HR department or visit the <a href="#">Boeeing Employee Handbook</a>.</p>
-    </div>
-
+    <main>
+        <h1>Welcome to the HR Section</h1>
+        <p>Explore our policies and resources for a better workplace experience.</p>
+        <ul class="links">
+            <li><a href="leave-policy.html">Leave Policy</a></li>
+            <li><a href="employee-wellness.html">Employee Wellness</a></li>
+            <li><a href="remote-work.html">Remote Work</a></li>
+            <li><a href="workplace-safety.html">Workplace Safety</a></li>
+        </ul>
+    </main>
     <footer>
-        <p>&copy; 2024 Boeing Corporation. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+        <p>&copy; 2024 My Static Website</p>
     </footer>
-
+    <script src="../js/scripts.js"></script>
 </body>
-
 </html>
